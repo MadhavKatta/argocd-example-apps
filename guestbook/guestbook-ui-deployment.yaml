@@ -14,7 +14,7 @@ spec:
         app: onlinebookstore-ui
     spec:
       containers:
-      - image: madhavkrishna118/onlinebooking:latest
+      - image: madhavkrishna118/nginx_edited:1.0
         name: onlinebookstore-ui
         ports:
         - containerPort: 80
